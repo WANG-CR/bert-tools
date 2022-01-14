@@ -103,8 +103,6 @@ The examples in the TFRecords have the following key/values in its features dict
 ## Load tfrecords
 
 1. Make index files
-   
-
   To run the script setup a virtualenv with the following libraries installed.
 
   - `nvidia.dali`: See [documentation](https://docs.nvidia.com/deeplearning/dali/user-guide/docs/installation.html)
@@ -114,6 +112,7 @@ The examples in the TFRecords have the following key/values in its features dict
   ```
 
   The index files can be obtained from TFRecord files by using the make_idx.py script that is distributed with DALI. There should be one index file for every TFRecord file.
+
 2. Instantiate a DALIdataloader to read tfrecords
 
   ```python
